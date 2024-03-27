@@ -8,7 +8,7 @@ interface Props{
     params:{id:number}
 }
 
-const actualizarPage = ({params}:Props) => {
+const ActualizarPage = ({params}:Props) => {
 
     const alumno = {
         nombre: '',
@@ -131,4 +131,4 @@ const actualizarPage = ({params}:Props) => {
   )
 }
 
-export default actualizarPage
+export default ActualizarPage

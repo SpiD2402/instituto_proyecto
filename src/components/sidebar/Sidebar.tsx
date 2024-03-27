@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import { IoAlbums, IoBookOutline, IoBrowsersOutline, IoCalculator, IoFootballOutline, IoHeartOutline, IoLogoReact } from 'react-icons/io5'
+import {  IoBookOutline, IoLogoReact } from 'react-icons/io5'
 import SidebarMenuIem from './SidebarMenu'
 import Link from 'next/link'
 import { RiUser2Line, RiUser3Fill, RiUser3Line } from 'react-icons/ri'

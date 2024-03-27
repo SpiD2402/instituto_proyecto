@@ -13,7 +13,7 @@ interface Props {
 
 
 
-const page = ({params}:Props) => {
+const ActualizarPage = ({params}:Props) => {
 
 
     const profesor = {
@@ -132,4 +132,4 @@ const page = ({params}:Props) => {
   )
 }
 
-export default page
+export default ActualizarPage

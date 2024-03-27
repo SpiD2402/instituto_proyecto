@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { apiGuardar } from '../apis-carrera'
 
-const page = () => {
+const CrearPage = () => {
 
     const carrera = {
 
@@ -92,4 +92,4 @@ const page = () => {
   )
 }
 
-export default page
+export default CrearPage

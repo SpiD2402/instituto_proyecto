@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { deleteAlumno,  } from './registro/api-registro';
 
 
-const page = () => {
+const AlumnoPage = () => {
 
   const [alumnos, setAlumnos] = useState<Alumno[] | null>(null);
 
@@ -84,4 +84,4 @@ const page = () => {
   )
 }
 
-export default page
+export default AlumnoPage

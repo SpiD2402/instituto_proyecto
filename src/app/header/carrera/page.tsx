@@ -6,7 +6,7 @@ import React from 'react'
 
 
 
-const page =  () => {
+const CarreraPage =  () => {
 
 
   return (
@@ -19,4 +19,4 @@ const page =  () => {
   )
 }
 
-export default page
+export default CarreraPage

@@ -2,7 +2,7 @@ import Header from '@/components/header/Header';
 import React from 'react'
 
 
-export default function  headerLayout({
+export default function  HeaderLayout({
     children
    }: {
     children: React.ReactNode;

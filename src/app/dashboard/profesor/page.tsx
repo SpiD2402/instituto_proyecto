@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { deleteProfesor, listProfesor } from './api-profesor'
 import Link from 'next/link';
 
-const page = () => {
+const ProfesorAll = () => {
 
   const [profesor,setProfesor]= useState <any[]>( []);
 
@@ -35,7 +35,7 @@ const page = () => {
     <div className="container mx-auto mt-8">
     <h1 className="text-3xl font-bold mb-4">Listado de Profesores</h1>
     <Link className="w-full  mx-5 bg-blue-700 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded text-center"
-      href={"/dashboard/profesor/registro"}>Agregar Profesor</Link>
+      href={"/dashboard/profesor/registro"}>Agregar Profes</Link>
     <table className="my-4 min-w-full divide-y divide-gray-200">
         <thead className="bg-gray-50">
             <tr>
@@ -72,4 +72,4 @@ const page = () => {
   )
 }
 
-export default page
+export default ProfesorAll

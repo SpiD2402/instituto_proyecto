@@ -9,7 +9,7 @@ interface Props {
 }
 
 
-const carreraActualizar = ({params}:Props) => {
+const ActualizarPage = ({params}:Props) => {
     const carrera ={
             nombre:"",
             duracion: 0,
@@ -117,4 +117,4 @@ const carreraActualizar = ({params}:Props) => {
   )
 }
 
-export default carreraActualizar
+export default ActualizarPage

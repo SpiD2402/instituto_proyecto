@@ -3,7 +3,7 @@
   import { eliminarCarrera, getCarrera } from './apis-carrera'
 import Link from 'next/link';
 
-  const page = () => {
+  const AlumnoListado = () => {
 
       const [carrera,setCarrera] = useState <any[]>( []);
 
@@ -67,4 +67,4 @@ import Link from 'next/link';
     )
 }
 
-export default page
+export default AlumnoListado
